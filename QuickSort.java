@@ -1,6 +1,6 @@
 	public static void quickSort(int[] array, int left, int right){
-		int l = left;
-		int r = right;
+		int i = left;
+		int j = right;
 		int temp = 0;
 		int pivot = array[(left + right) / 2];
 		while(i<=j){
